@@ -6,8 +6,8 @@ import pandas as pd
 url = "https://www.bnext.com.tw/categories/ai"
 rel = 0
 rel2 = 1
-while (rel-rel2)!=0:
-# while rel < 13:
+# while (rel-rel2)!=0:
+while rel < 13:
     j = 0
     links1 = []
     driver = webdriver.PhantomJS(executable_path='D:/PhantomJS/phantomjs-2.1.1-windows/bin/phantomjs.exe')
