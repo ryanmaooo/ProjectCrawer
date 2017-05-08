@@ -9,7 +9,7 @@ links = []
 j = 0
 url = "https://buzzorange.com/techorange/?s=%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7"
 x = 1
-while x < 10:
+while x < 90:
     res = requests.get(url, headers={
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"})
     res.encoding = 'utf'
