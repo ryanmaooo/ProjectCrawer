@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import pandas as pd
 # https://buzzorange.com/techorange/?s=AR+VR
 # https://buzzorange.com/techorange/page/2/?s=AR+VR
-# f = open('D:\\buzzAI.txt', 'a', encoding='UTF-8')
 k = 1
 links = []
 j = 0
@@ -32,15 +31,9 @@ while x < 90:
             dfList.append(article2)
         articlefinal.append(dfList)
         df = pd.DataFrame(articlefinal)
-        #     f.write(soupfeed.get_text(separator="\n\n", strip=True))
-        # f.write("\n\n")
-        # f.write("value" + str(k))
-        # k += 1
-        # f.write("\n\n")
         j += 1
     x += 1
     df.to_csv('buzzorangeAI')
     print(df)
     url = "https://buzzorange.com/techorange/page/" + str(x) + "/?s=%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7"
     print("page" + str(x))
-# f.close()
