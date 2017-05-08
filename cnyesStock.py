@@ -81,7 +81,7 @@ while Sat < 1494172800:
                     dfList.append(article2)
                 articlefinal.append(dfList)
                 df = pd.DataFrame(articlefinal)
-            df.to_csv('cnyesStock')
+            df.to_csv('cnyeStock')
             print(type(df))
             # print(df)
                 # dataid += 1
