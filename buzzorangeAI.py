@@ -1,8 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-# https://buzzorange.com/techorange/?s=AR+VR
-# https://buzzorange.com/techorange/page/2/?s=AR+VR
+
 k = 1
 links = []
 j = 0
